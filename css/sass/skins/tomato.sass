@@ -1,0 +1,63 @@
+@import "../bourbon/bourbon"
+
+$main_color: #e7cb2c //yellow color
+$blue: #00ccff //blue section color
+$main_grey: #2a2e33 //grey (text, heder, footer)
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+a
+	color: $main_color
+h2,
+h3
+	+kerning(2)
+.bg
+	background-color: $main_grey
+.menu
+	background-color: $main_grey
+.logo
+	+kerning(1)
+	color: #fff
+	span
+		color: $main_color
+.navigation
+	a
+		color: #fff
+		+kerning(1)
+		&:hover,
+		&:focus
+			border-top: 1px solid $main_color
+.about
+	background-color: $blue
+	color: #fff
+	.about_descr
+		+kerning(3)
+.booking
+	background-color: $main_grey
+	box-shadow: 0px 10px 20px rgba(0,0,0,.5)
+	color: $main_grey
+.button
+	background-color: $main_color
+	color: #000
+.owl-carousel
+	.owl-nav
+		.owl-prev,
+		.owl-next
+			background-color: $main_color
+			transition: all 0.5s
+			border: 1px solid $main_grey
+.room_descr
+	color: #989a9d
+.room_icon
+	i
+		color: #666768
+.located
+	background-color: $main_color
+	color: #fff
+	+kerning(1)
+.main_footer
+	background-color: $main_grey	
+	color: #fff
+	.date
+		color: #6f6631

@@ -1,0 +1,212 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 14px;
+  min-width: 320px;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "Marck Script", cursive;
+  font-size: 32px;
+  text-align: center;
+}
+
+.menu {
+  width: 100%;
+  padding: 5px 0;
+  margin: 0 0;
+}
+.menu .menu-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.logo {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 2 auto;
+      -ms-flex: 1 2 auto;
+          flex: 1 2 auto;
+}
+.logo h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 95px;
+}
+
+.navigation {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 2 auto;
+      -ms-flex: 1 2 auto;
+          flex: 1 2 auto;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.navigation ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.navigation ul,
+.navigation li {
+  list-style-type: none;
+}
+.navigation a {
+  padding: 27px 20px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+}
+.navigation a:hover, .navigation a:focus {
+  text-decoration: none;
+  background-color: #1e2329;
+}
+
+.about_wrap {
+  padding: 70px 0 100px 0;
+  text-align: center;
+  position: relative;
+}
+.about_wrap .title::after {
+  content: "";
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  border-top: 1px dotted #fff;
+}
+.about_wrap .title p {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about_wrap .about_descr {
+  margin-top: 35px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.booking {
+  padding: 20px 20px;
+  margin: 0 20px;
+  position: absolute;
+  left: 15%;
+  bottom: -30px;
+  box-sizing: border-box;
+}
+.booking .booked {
+  width: 75%;
+  padding: 0;
+}
+.booking input {
+  line-height: 20px;
+  margin-right: 15px;
+  padding: 5px 0;
+  text-indent: 5px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+}
+
+.button {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 7px;
+  font-weight: 600;
+}
+
+.descr {
+  background-image: url(../img/bg_light.jpg);
+  background-repeat: repeat-y;
+}
+.descr .descr_wrap {
+  padding: 100px 0 70px 0;
+  text-align: center;
+}
+
+.owl-carousel {
+  margin-top: 30px;
+  padding: 0 10%;
+  box-sizing: border-box;
+}
+.owl-carousel .owl-item img {
+  height: 230px;
+}
+
+.about_rooms {
+  text-align: center;
+}
+.about_rooms .rooms_wrap {
+  padding: 20px 0 70px 0;
+}
+.about_rooms .room_img img {
+  width: 100%;
+  height: 180px;
+  margin: 0 auto;
+}
+.about_rooms .room_icon ul,
+.about_rooms .room_icon li {
+  list-style-type: none;
+  display: inline-block;
+}
+.about_rooms .room_icon ul {
+  padding: 0;
+  text-align: left;
+}
+.about_rooms .room_icon li {
+  padding: 5px;
+}
+.about_rooms .room_icon li i {
+  font-size: 24px;
+}
+.about_rooms h3 {
+  margin-bottom: 5px;
+}
+.about_rooms p {
+  margin-top: 5px;
+}
+
+.located {
+  font-size: 18px;
+  position: relative;
+  padding: 20px 0;
+  min-height: 220px;
+}
+.located .title {
+  font-size: 24px;
+}
+.located .person {
+  position: absolute;
+  right: 50px;
+  bottom: -180px;
+}
+
+.main_footer h3 {
+  text-transform: uppercase;
+}
+.main_footer p,
+.main_footer span {
+  font-size: 12px;
+}
+.main_footer p {
+  margin: 12px 0 2px 0;
+}
+.main_footer .button {
+  margin-top: 15px;
+}

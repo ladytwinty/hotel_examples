@@ -1,0 +1,81 @@
+a {
+  color: #e7cb2c;
+}
+
+h2,
+h3 {
+  letter-spacing: 2px;
+}
+
+.bg {
+  background-color: #2a2e33;
+}
+
+.menu {
+  background-color: #2a2e33;
+}
+
+.logo {
+  letter-spacing: 1px;
+  color: #fff;
+}
+.logo span {
+  color: #e7cb2c;
+}
+
+.navigation a {
+  color: #fff;
+  letter-spacing: 1px;
+}
+.navigation a:hover, .navigation a:focus {
+  border-top: 1px solid #e7cb2c;
+}
+
+.about {
+  background-color: #00ccff;
+  color: #fff;
+}
+.about .about_descr {
+  letter-spacing: 3px;
+}
+
+.booking {
+  background-color: #2a2e33;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  color: #2a2e33;
+}
+
+.button {
+  background-color: #e7cb2c;
+  color: #000;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+  background-color: #e7cb2c;
+  -webkit-transition: all 0.5s;
+          transition: all 0.5s;
+  border: 1px solid #2a2e33;
+}
+
+.room_descr {
+  color: #989a9d;
+}
+
+.room_icon i {
+  color: #666768;
+}
+
+.located {
+  background-color: #e7cb2c;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.main_footer {
+  background-color: #2a2e33;
+  color: #fff;
+}
+.main_footer .date {
+  color: #6f6631;
+}
