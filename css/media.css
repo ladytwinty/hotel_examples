@@ -1,0 +1,28 @@
+@media only screen and (max-width: 936px) {
+	.menu .logo h1{
+		text-align: center;
+		margin:0;
+		padding:0;
+	}
+	.navigation{
+		margin-top: 10px;	
+		justify-content: center;
+	}
+	.navigation a{
+		padding: 20px;
+	}
+
+@media only screen and (min-width: 768px) {
+	.about_rooms .room_img img{
+		width: 50% !important;
+	}
+}
+
+//658
+
+@media only screen and (min-width: 1900px) {
+	.owl-carousel .owl-item img{
+		height: 320px;
+	}
+			
+}

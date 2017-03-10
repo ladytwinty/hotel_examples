@@ -58,12 +58,11 @@ h3 {
   border: 1px solid #2a2e33;
 }
 
-.room_descr {
-  color: #989a9d;
-}
-
-.room_icon i {
+.test_wrap i {
   color: #666768;
+}
+.test_wrap p {
+  color: #989a9d;
 }
 
 .located {

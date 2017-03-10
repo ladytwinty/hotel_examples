@@ -35,6 +35,7 @@ h2 {
   -webkit-flex: 1 2 auto;
       -ms-flex: 1 2 auto;
           flex: 1 2 auto;
+  padding-left: 10px;
 }
 .logo h1 {
   text-transform: uppercase;
@@ -114,7 +115,8 @@ h2 {
   width: 75%;
   padding: 0;
 }
-.booking input {
+
+input {
   line-height: 20px;
   margin-right: 15px;
   padding: 5px 0;
@@ -129,15 +131,18 @@ h2 {
   padding: 5px 15px;
   border-radius: 7px;
   font-weight: 600;
+  outline: none;
 }
 
 .descr {
-  background-image: url(../img/bg_light.jpg);
-  background-repeat: repeat-y;
+  background-color: #fff;
 }
 .descr .descr_wrap {
   padding: 100px 0 70px 0;
   text-align: center;
+}
+.descr .descr_wrap p {
+  margin: 10px 20px;
 }
 
 .owl-carousel {
@@ -149,36 +154,79 @@ h2 {
   height: 230px;
 }
 
-.about_rooms {
-  text-align: center;
+.test {
+  padding: 10px 0 70px 0;
 }
-.about_rooms .rooms_wrap {
-  padding: 20px 0 70px 0;
+
+.test_wrap,
+.test_pair {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.about_rooms .room_img img {
+.test_wrap .block1,
+.test_wrap .block2,
+.test_pair .block1,
+.test_pair .block2 {
+  width: 300px;
+  margin: 20px;
+}
+.test_wrap .block1 .text,
+.test_wrap .block2 .text,
+.test_pair .block1 .text,
+.test_pair .block2 .text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.test_wrap .block1 img,
+.test_wrap .block2 img,
+.test_pair .block1 img,
+.test_pair .block2 img {
   width: 100%;
   height: 180px;
   margin: 0 auto;
 }
-.about_rooms .room_icon ul,
-.about_rooms .room_icon li {
+.test_wrap .room_icon ul,
+.test_wrap .room_icon li,
+.test_pair .room_icon ul,
+.test_pair .room_icon li {
   list-style-type: none;
   display: inline-block;
 }
-.about_rooms .room_icon ul {
+.test_wrap .room_icon ul,
+.test_pair .room_icon ul {
   padding: 0;
   text-align: left;
 }
-.about_rooms .room_icon li {
+.test_wrap .room_icon li,
+.test_pair .room_icon li {
   padding: 5px;
 }
-.about_rooms .room_icon li i {
+.test_wrap .room_icon li i,
+.test_pair .room_icon li i {
   font-size: 24px;
 }
-.about_rooms h3 {
+.test_wrap h3,
+.test_pair h3 {
   margin-bottom: 5px;
+  text-align: center;
 }
-.about_rooms p {
+.test_wrap p,
+.test_pair p {
   margin-top: 5px;
 }
 
@@ -209,4 +257,13 @@ h2 {
 }
 .main_footer .button {
   margin-top: 15px;
+  outline: none;
+}
+.main_footer input {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #6f6631;
+}
+.main_footer .block1 {
+  margin-bottom: 15px;
 }
